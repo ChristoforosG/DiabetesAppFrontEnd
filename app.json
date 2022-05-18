@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "MyDiabetes",
+    "slug": "MyDiabetes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/246761686_215437853987486_99197162584875551_n.png",
+    "splash": {
+      "image": "./assets/246761686_215437853987486_99197162584875551_n.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/246761686_215437853987486_99197162584875551_n.png"
+      },
+      "package": "org.thesis.diabetes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/1F912_color.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ]
+    ]
+  }
+}
